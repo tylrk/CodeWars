@@ -11,8 +11,7 @@
 
 function order(str) {
   return str.split(' ').sort((a, b) => {
-    const positionA = parseInt(a.match(/\d+/), 10);
-    const positionB = parseInt(b.match(/\d+/), 10);
-    return positionA - positionB;
+  return a.match(/\d+/) - b.match(/\d+/);
   }).join(' ');
-};
+}
+
