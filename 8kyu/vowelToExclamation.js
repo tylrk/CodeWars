@@ -7,4 +7,4 @@
 // replace("aeiou") === "!!!!!"
 // replace("ABCDE") === "!BCD!"
 
-const replace = (s) => s.replace(/[AEIOUaeiou]/g, '!');
+const replace = (s) => s.replace(/[aeiou]/ig, '!');
