@@ -4,7 +4,4 @@
 
 // Good luck :)
 
-const unusualFive = () => {
-  const str = 'abcde';
-  return str.length;
-};
+const unusualFive = () => 'tyler'.length;
