@@ -16,7 +16,7 @@
 
 function dataReverse(data) {
   const result = [];
-  while(data.length > 0) {
+  while(data.length) {
     result.push(data.splice(0,8));
   };
   return result.reverse().flat(1);
