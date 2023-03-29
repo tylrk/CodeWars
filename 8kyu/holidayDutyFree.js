@@ -7,5 +7,5 @@
 // All inputs will be integers. Please return an integer. Round down.
 
 function dutyFree(normPrice, discount, hol) {
- return Math.floor(hol / (normPrice * (parseFloat(discount) / 100)));
+ return Math.floor(hol / (normPrice * (discount / 100)));
 };
